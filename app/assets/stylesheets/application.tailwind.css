@@ -11,3 +11,20 @@
 }
 
 */
+
+.nav a, .nav button {
+    color: rgb(171, 0, 177);
+    text-decoration: none;
+}
+
+.nav a {
+    padding-right: 2.5rem;
+}
+
+.nav a:hover, .nav button:hover {
+    text-decoration: underline;
+}
+
+.button_to {
+    display: inline;
+}
