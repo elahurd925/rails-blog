@@ -12,16 +12,20 @@
 
 */
 
-.nav a, .nav button {
+.nav-button {
+
+}
+
+.nav-link {
+    padding-right: 2.5rem;
+}
+
+.nav-link, .nav-button {
     color: rgb(171, 0, 177);
     text-decoration: none;
 }
 
-.nav a {
-    padding-right: 2.5rem;
-}
-
-.nav a:hover, .nav button:hover {
+.nav-link:hover, .nav-button:hover {
     text-decoration: underline;
 }
 
