@@ -12,6 +12,10 @@
 
 */
 
+.cover-image {
+    width: 30%;
+}
+
 .nav-link {
     padding-right: 2.5rem;
 }

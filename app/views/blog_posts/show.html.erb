@@ -1,3 +1,5 @@
+
+<%= image_tag @blog_post.cover_image.variant(resize_to_limit: [500, 500]) if @blog_post.cover_image.attached? %>
 <h1><%= @blog_post.title %></h1>
 <p><%= @blog_post.content %></p>
 
